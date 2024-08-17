@@ -1,0 +1,19 @@
+header
+{
+   align-items: center;
+   background-color: var(--vs-cor-fundo-vermelho);
+   color: var(--vs-cor-fonte-branca);
+   display: flex;
+   height: 80px;   
+}
+
+h1:hover
+{
+   color: black;
+   font-size: 22px;
+}
+
+.titulo-cabecalho
+{     
+   font-size: 20px;   
+}
