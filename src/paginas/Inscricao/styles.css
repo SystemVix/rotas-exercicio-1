@@ -1,0 +1,10 @@
+.titulo h2
+{
+   align-items: center;
+   color: var(--vs-cor-fonte-cinza);
+   display: flex;
+   font-size: 32px;
+   justify-content: center;
+   margin-top: 38px;
+   margin-bottom: 47px;
+}

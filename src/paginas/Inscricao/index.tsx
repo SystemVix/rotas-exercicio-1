@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import Botao from "../../../componentes/Botao";
-import Cartao from "../../../componentes/Cartao";
+import Botao from "../../componentes/Botao";
+import Cartao from "../../componentes/Cartao";
+import './styles.css';
 
 export default function Inscricao()
 {
@@ -8,6 +9,9 @@ export default function Inscricao()
       <main>
          <section>
             <div className="vs-conteiner">
+               <div className="titulo">
+                  <h2>Faça sua inscrição!</h2>
+               </div>               
                <div className="mt30 mb30">
                   <Cartao titulo="Página de inscrição"/>
                </div>

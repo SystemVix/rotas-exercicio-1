@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './paginas/Home'
-import CorpoHome from './paginas/Home/CorpoHome'
-import Promocao from './paginas/Home/Promocao'
-import Inscricao from './paginas/Home/Inscricao';
+import Principal from './paginas/Principal'
+import Corpo from './paginas/Principal/Corpo';
+import Promocao from './paginas/Principal/Promocao'
+import Inscricao from './paginas/Inscricao';
 
 function App()
 {
@@ -10,11 +10,11 @@ function App()
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home/>}>
-            <Route index element={<CorpoHome/>}/>
-            <Route path='promocao' element={<Promocao/>}/>
-            <Route path='inscricao' element={<Inscricao/>}/>
+          <Route path="/" element={<Principal/>}>
+            <Route index element={<Corpo/>}/>
+            <Route path='promocao' element={<Promocao/>}/>            
           </Route>
+          <Route path='inscricao' element={<Inscricao/>}/>
         </Routes>
       </BrowserRouter>            
     </>

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Botao from "../../../componentes/Botao";
 import Cartao from "../../../componentes/Cartao";
 
-export default function CorpoHome()
+export default function Corpo()
 {
    return (
       <main>
